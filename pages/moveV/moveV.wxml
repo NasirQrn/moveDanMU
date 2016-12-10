@@ -1,0 +1,19 @@
+
+<!--logs.wxml-->
+<view class='huabu'>
+  <view wx:if='{{condition}}' animation="{{animationData}}" class='main' bindtap='tapName' style="right:{{aaa}}px">
+      <view class='headAn'>
+        <image src="src">aaaaa</image>
+        <text>我是名称</text>
+      <view class='textA'>新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻</view>
+    </view>
+  </view>
+
+  <view wx:if='{{condition}}' animation="{{animationData}}" class='main2' bindtap='tapName' style="right:{{right}}px">
+      <view class='headAn'>
+        <image src="src">aaaaa</image>
+        <text>我是名称</text>
+      <view class='textA'>main222222main222</view>
+    </view>
+  </view>
+</view>
